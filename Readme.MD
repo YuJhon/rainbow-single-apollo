@@ -67,10 +67,10 @@
     * 3.7 修改本地运行环境（指定为DEV）,路径为：``` C:\opt\settings\server.properties ```
     ![配置启动的环境](./doc/005.配置启动的环境.png)
     * 3.8 删除项目中的application.properties文件，新增META-INF文件夹和app.properties文件,配置信息如下：
-    ```properties
-      app.id=jhonrain1321
-    ```
-    ![新增META-INF文件夹](./doc/012.新增META-INF文件夹.png)
+        ```properties
+          app.id=jhonrain1321
+        ```
+        ![新增META-INF文件夹](./doc/012.新增META-INF文件夹.png)
     * 3.9 添加apollo配置中心注解:@EnableApolloConfig
     ![启动类添加apollo注解配置](./doc/011.启动类添加apollo注解配置.png)
     * 3.10 启动项目，如果没有报错，那么就成功了！
