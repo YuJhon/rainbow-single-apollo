@@ -18,5 +18,5 @@ public class ConfigConstants {
 
   public static final String ZH_CN_NAMESPACE = "TEST1.message_zh";
 
-  public static final String EN_NAMENSPACE = "TEST1.message_en";
+  public static final String EN_NAMESPACE = "TEST1.message_en";
 }

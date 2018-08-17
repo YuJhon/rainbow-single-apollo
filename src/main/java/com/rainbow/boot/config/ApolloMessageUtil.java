@@ -19,7 +19,7 @@ import org.springframework.context.annotation.Configuration;
 public class ApolloMessageUtil implements InitializingBean {
 
 
-  private static Config enPublicConfig = ConfigService.getConfig(ConfigConstants.EN_NAMENSPACE);
+  private static Config enPublicConfig = ConfigService.getConfig(ConfigConstants.EN_NAMESPACE);
   private static Config zhCnPublicConfig = ConfigService.getConfig(ConfigConstants.ZH_CN_NAMESPACE);
 
   private static ApolloMessageUtil apolloMessage = null;
