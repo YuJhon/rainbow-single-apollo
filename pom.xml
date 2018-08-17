@@ -48,6 +48,11 @@
             <artifactId>jasypt-spring-boot-starter</artifactId>
             <version>1.18</version>
         </dependency>
+        <!--网关配置-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zuul</artifactId>
+        </dependency>
         <!--日志信息-->
         <dependency>
             <groupId>org.projectlombok</groupId>
